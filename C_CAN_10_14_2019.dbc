@@ -1,35 +1,35 @@
 VERSION ""
 
 
-NS_ : 
-	NS_DESC_
-	CM_
-	BA_DEF_
-	BA_
-	VAL_
-	CAT_DEF_
-	CAT_
-	FILTER
-	BA_DEF_DEF_
-	EV_DATA_
-	ENVVAR_DATA_
-	SGTYPE_
-	SGTYPE_VAL_
-	BA_DEF_SGTYPE_
-	BA_SGTYPE_
-	SIG_TYPE_REF_
-	VAL_TABLE_
-	SIG_GROUP_
-	SIG_VALTYPE_
-	SIGTYPE_VALTYPE_
-	BO_TX_BU_
-	BA_DEF_REL_
-	BA_REL_
-	BA_DEF_DEF_REL_
-	BU_SG_REL_
-	BU_EV_REL_
-	BU_BO_REL_
-	SG_MUL_VAL_
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
 
 BS_:
 
@@ -41,8 +41,8 @@ BO_ 1665 NEW_MSG_1: 8 XXX
 BO_ 545 NEW_MSG_2: 8 XXX
 
 BO_ 261 NEW_MSG_3: 8 XXX
- SG_ NEW_SIGNAL_1 : 15|2@0+ (1,0) [0|3] ""  XXX
- SG_ NEW_SIGNAL_2 : 0|4@1+ (1,0) [0|15] ""  XXX
+ SG_ NEW_SIGNAL_1 : 15|2@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 35 C3_Steering_Column_msg1: 8 Steering_Column
 
@@ -53,21 +53,21 @@ BO_ 55 C2_Transmission_Control_msg4: 8 TCU
 BO_ 119 C8_Body_Control_msg62: 2 BCM
 
 BO_ 131 ABS_msg13: 8 ABS
- SG_ Brake_Pressed_Stat : 7|8@0+ (1,0) [0|255] ""  XXX
- SG_ ARC : 55|4@0+ (1,0) [0|15] ""  XXX
- SG_ CRC : 63|8@0+ (1,0) [0|255] ""  XXX
+ SG_ Brake_Pressed_Stat : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ ARC : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ CRC : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 177 C3_Steering_Column_msg2: 3 Steering_Column
 
 BO_ 213 C5_Antilock_braking_system_msg4: 8 ABS
 
 BO_ 808 C8_Body_Control_msg49: 8 BCM
- SG_ NEW_SIGNAL_1 : 5|20@0+ (1,0) [0|1048575] ""  XXX
+ SG_ NEW_SIGNAL_1 : 5|20@0+ (1,0) [0|1048575] "" XXX
 
 BO_ 173 GearPosition_Shifter: 5 Electronic_Shifter_Module
- SG_ GearPosition_Shifter_ARC : 31|4@0+ (1,0) [0|15] ""  XXX
- SG_ GEAR_POSITION_REQUEST : 0|3@1+ (1,0) [0|7] ""  XXX
- SG_ GearPosition_Shifter_CRC : 32|8@1+ (1,0) [0|255] ""  XXX
+ SG_ GearPosition_Shifter_ARC : 31|4@0+ (1,0) [0|15] "" XXX
+ SG_ GEAR_POSITION_REQUEST : 0|3@1+ (1,0) [0|7] "" XXX
+ SG_ GearPosition_Shifter_CRC : 32|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1033 C6_Electronic_Shifter_msg1: 8 Electronic_Shifter_Module
 
@@ -250,18 +250,18 @@ BO_ 601 C12_Occupant_Classification: 8 Occupant_Classification
 BO_ 293 C2_Transmission_Control_msg1: 3 TCU
 
 BO_ 147 GearPosition_Transmission: 8 TCU
- SG_ DRIVE_ON : 4|1@0+ (1,0) [0|1] ""  XXX
- SG_ MOVE_ON_OFF : 7|1@0+ (1,0) [0|1] ""  XXX
- SG_ NEUTRAL_ON : 3|1@0+ (1,0) [0|1] ""  XXX
- SG_ REVERSE_ON : 2|1@0+ (1,0) [0|1] ""  XXX
- SG_ CONSTANT_1_TRANSMISSION : 15|8@0+ (1,0) [0|255] ""  XXX
- SG_ TRANSMISSION_ENABLE : 22|1@0+ (1,0) [0|1] ""  XXX
- SG_ PR_ND : 20|1@0+ (1,0) [0|1] ""  XXX
- SG_ ACTUAL_GEAR : 16|4@1+ (1,0) [0|15] ""  XXX
- SG_ BRAKE_STAT_TCU : 29|1@0+ (1,0) [0|1] ""  XXX
- SG_ EPB_STAT_TCU : 48|1@0+ (1,0) [0|1] ""  XXX
- SG_ GearPosition_Transmission_CRC : 63|8@0+ (1,0) [0|255] ""  XXX
- SG_ GearPosition_Transmission_ARC : 55|4@0+ (1,0) [0|15] ""  XXX
+ SG_ DRIVE_ON : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ MOVE_ON_OFF : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEUTRAL_ON : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ REVERSE_ON : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ CONSTANT_1_TRANSMISSION : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ TRANSMISSION_ENABLE : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ PR_ND : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACTUAL_GEAR : 16|4@1+ (1,0) [0|15] "" XXX
+ SG_ BRAKE_STAT_TCU : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ EPB_STAT_TCU : 48|1@0+ (1,0) [0|1] "" XXX
+ SG_ GearPosition_Transmission_CRC : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ GearPosition_Transmission_ARC : 55|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 149 C2_Transmission_Control_msg5: 7 TCU
 
@@ -292,19 +292,19 @@ BO_ 137 C5_Antilock_braking_system_msg6: 8 ABS
 BO_ 167 C5_Antilock_braking_system_msg8: 8 ABS
 
 BO_ 47 ABS_msg9: 8 ABS
- SG_ Brake_Travel : 39|16@0+ (1,0) [0|65535] ""  XXX
+ SG_ Brake_Travel : 39|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 113 C5_Antilock_braking_system_msg10: 8 ABS
 
 BO_ 121 ABS_Vehicle_Speed: 8 ABS
- SG_ VehicleSpeed_ARC : 55|4@0+ (1,0) [0|15] ""  XXX
- SG_ VehicleSpeed_CRC : 63|8@0+ (1,0) [0|255] ""  XXX
- SG_ VEHICLE_SPEED : 39|16@0+ (0.00483,0) [0|316.6] "MPH"  XXX
+ SG_ VehicleSpeed_ARC : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ VehicleSpeed_CRC : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ VEHICLE_SPEED : 39|16@0+ (0.00483,0) [0|316.6] "MPH" XXX
 
 BO_ 127 C5_Antilock_braking_system_msg12: 8 ABS
 
 BO_ 633 ECM_msg1: 8 ECM
- SG_ Engine_Oil_Life : 15|8@0+ (1,0) [0|255] ""  XXX
+ SG_ Engine_Oil_Life : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 347 C6_Powertrain_Control_msg2: 8 ECM
 
@@ -331,7 +331,7 @@ BO_ 311 C6_Powertrain_Control_msg12: 8 ECM
 BO_ 333 C6_Powertrain_Control_msg13: 8 ECM
 
 BO_ 181 ECM_msg14: 8 ECM
- SG_ Engine_Speed_DIS : 23|16@0+ (1,0) [0|65535] ""  XXX
+ SG_ Engine_Speed_DIS : 23|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 295 C6_Powertrain_Control_msg15: 8 ECM
 
@@ -339,86 +339,23 @@ BO_ 992 C6_Powertrain_Control_msg16: 8 ECM
 
 BO_ 53 C6_Powertrain_Control_msg17: 8 ECM
 
-BO_ 123 C6_Powertrain_Control_msg18: 7 ECM
+BO_ 123 ECM_msg18: 7 ECM
+ SG_ Acc_Pedal_ARC : 47|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 37 ECM_Engine_Speed_Data: 8 ECM
- SG_ Engine_speed : 7|16@0+ (1,0) [0|65535] ""  XXX
- SG_ Engine_Speed_ARC : 55|4@0+ (1,0) [0|15] ""  XXX
- SG_ Engine_Speed_CRC : 63|8@0+ (1,0) [0|255] ""  XXX
+ SG_ Engine_speed : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Engine_Speed_ARC : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ Engine_Speed_CRC : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 157 C6_Powertrain_Control_msg20: 8 ECM
 
 BO_ 39 C6_Powertrain_Control_msg21: 8 ECM
 
 BO_ 139 ABS_Wheel_Speed: 8 ABS
- SG_ Front_Driver_Wheel_Speed : 7|16@0+ (1,0) [0|65535] ""  XXX
- SG_ Front_Passenger_Wheel_Speed : 23|16@0+ (1,0) [0|65535] ""  XXX
- SG_ Rear_Driver_Wheel_Speed : 39|16@0+ (1,0) [0|65535] ""  XXX
- SG_ Rear_Passenger_Wheel_Speed : 55|16@0+ (1,0) [0|65535] ""  XXX
+ SG_ Front_Driver_Wheel_Speed : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Front_Passenger_Wheel_Speed : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Rear_Driver_Wheel_Speed : 39|16@0+ (1,0) [0|65535] "" XXX
+ SG_ Rear_Passenger_Wheel_Speed : 55|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 517 ECM_Immobilizer_msg: 8 ECM
- SG_ Immobilizer_Auth : 7|8@0+ (1,0) [0|255] ""  XXX
-
-
-
-BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
-BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
-BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
-BA_DEF_ BO_  "ON_PT" ENUM  "NO","YES";
-BA_DEF_ BO_  "ON_C" ENUM  "NO","YES";
-BA_DEF_ BO_  "ON_B" ENUM  "NO","YES";
-BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
-BA_DEF_ BU_  "NodeLayerModules" STRING ;
-BA_DEF_ BO_  "ON_INV" ENUM  "NO","YES";
-BA_DEF_  "Status" ENUM  "DRAFT","RELEASE";
-BA_DEF_  "Baseline" STRING ;
-BA_DEF_  "Model" STRING ;
-BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
-BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 0;
-BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
-BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","IfActive","NoMsgSendType","NotUsed";
-BA_DEF_ SG_  "GenSigStartValue" INT 0 0;
-BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed";
-BA_DEF_  "Baudrate" INT 0 1000000;
-BA_DEF_  "Manufacturer" STRING ;
-BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
-BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
-BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
-BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
-BA_DEF_ BU_  "BusConnection4" ENUM  "NoBusConnection","B-CAN","C-CAN","PT-CAN","INV-CAN";
-BA_DEF_ BU_  "BusConnection3" ENUM  "NoBusConnection","B-CAN","C-CAN","PT-CAN","INV-CAN";
-BA_DEF_ BU_  "BusConnection2" ENUM  "NoBusConnection","B-CAN","C-CAN","PT-CAN","INV-CAN","SW-CAN";
-BA_DEF_ BU_  "BusConnection1" ENUM  "NoBusConnection","B-CAN","C-CAN","PT-CAN","INV-CAN","SW-CAN";
-BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 0;
-BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
-BA_DEF_DEF_  "GenSigInactiveValue" 0;
-BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
-BA_DEF_DEF_  "ON_PT" "NO";
-BA_DEF_DEF_  "ON_C" "NO";
-BA_DEF_DEF_  "ON_B" "NO";
-BA_DEF_DEF_  "ILUsed" "Yes";
-BA_DEF_DEF_  "NodeLayerModules" "CANoeILNLVector.dll";
-BA_DEF_DEF_  "ON_INV" "NO";
-BA_DEF_DEF_  "Status" "DRAFT";
-BA_DEF_DEF_  "Baseline" "";
-BA_DEF_DEF_  "Model" "";
-BA_DEF_DEF_  "GenMsgDelayTime" 0;
-BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
-BA_DEF_DEF_  "GenMsgCycleTime" 0;
-BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
-BA_DEF_DEF_  "GenSigStartValue" 0;
-BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
-BA_DEF_DEF_  "Baudrate" 500000;
-BA_DEF_DEF_  "Manufacturer" "KARMA AUTOMOTIVE LLC";
-BA_DEF_DEF_  "GenMsgILSupport" "Yes";
-BA_DEF_DEF_  "DiagState" "No";
-BA_DEF_DEF_  "DiagResponse" "No";
-BA_DEF_DEF_  "DiagRequest" "No";
-BA_DEF_DEF_  "BusConnection4" "NoBusConnection";
-BA_DEF_DEF_  "BusConnection3" "NoBusConnection";
-BA_DEF_DEF_  "BusConnection2" "NoBusConnection";
-BA_DEF_DEF_  "BusConnection1" "NoBusConnection";
-BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
-BA_ "GenMsgSendType" BO_ 131 0;
-BA_ "GenMsgCycleTime" BO_ 131 20;
-
+ SG_ Immobilizer_Auth : 7|8@0+ (1,0) [0|255] "" XXX
