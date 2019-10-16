@@ -34,7 +34,17 @@ NS_ :
 BS_:
 
 BU_: RFHM BCM Occupant_Restraint_Controller Active_Vibration_Cancellation Steering_Column EPS Occupant_Classification Cluster Park_Assist_Module TCU Electronic_Shifter_Module ECM ABS XXX
-
+VAL_TABLE_ BRAKE_STAT_TCU 1 "PRESSED" 0 "NOT PRESSED" ;
+VAL_TABLE_ EPB_STAT_TCU 1 "APPLIED" 0 "RELEASED" ;
+VAL_TABLE_ ACTUAL_GEAR 14 "NEUTRAL" 4 "DRIVE" 2 "REVERSE" 0 "PARK" ;
+VAL_TABLE_ CONSTANT_1_TRANSMISSION ;
+VAL_TABLE_ PR_ND 1 "GEAR ON PR" 0 "GEAR ON ND" ;
+VAL_TABLE_ TRANSMISSION_ENABLE 1 "1" 0 "FALSE" ;
+VAL_TABLE_ Neutral_ON 1 "True" 0 "False" ;
+VAL_TABLE_ Reverse_ON 1 "True" 0 "False" ;
+VAL_TABLE_ DRIVE_ON 1 "True" 0 "False" ;
+VAL_TABLE_ MOVE_ON_OFF 1 "STOP" 0 "MOVE" ;
+VAL_TABLE_ GEAR_POSITION 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" 0 "NA" ;
 
 BO_ 1665 NEW_MSG_1: 8 XXX
 
@@ -420,3 +430,13 @@ BA_DEF_DEF_  "BusConnection1" "NoBusConnection";
 BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
 BA_ "GenMsgSendType" BO_ 131 0;
 BA_ "GenMsgCycleTime" BO_ 131 20;
+VAL_ 147 BRAKE_STAT_TCU 1 "PRESSED" 0 "NOT PRESSED" ;
+VAL_ 147 EPB_STAT_TCU 1 "APPLIED" 0 "RELEASED" ;
+VAL_ 147 ACTUAL_GEAR 14 "NEUTRAL" 4 "DRIVE" 2 "REVERSE" 0 "PARK" ;
+VAL_ 147 PR_ND 1 "GEAR ON PR" 0 "GEAR ON ND" ;
+VAL_ 147 TRANSMISSION_ENABLE 1 "1" 0 "FALSE" ;
+VAL_ 147 NEUTRAL_ON 1 "True" 0 "False" ;
+VAL_ 147 REVERSE_ON 1 "True" 0 "False" ;
+VAL_ 147 DRIVE_ON 1 "True" 0 "False" ;
+VAL_ 147 MOVE_ON_OFF 1 "STOP" 0 "MOVE" ;
+VAL_ 173 GEAR_POSITION_REQUEST 4 "Drive" 3 "Neutral" 2 "Reverse" 1 "Park" 0 "NA" ;
