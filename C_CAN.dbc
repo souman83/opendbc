@@ -339,7 +339,8 @@ BO_ 992 C6_Powertrain_Control_msg16: 8 XXX
 
 BO_ 53 C6_Powertrain_Control_msg17: 8 XXX
 
-BO_ 123 C6_Powertrain_Control_msg18: 7 XXX
+BO_ 123 ECM_msg_18: 7 XXX
+ SG_ ARC : 47|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 37 ECM_Engine_Speed_Data: 8 XXX
  SG_ Engine_speed : 7|16@0+ (1,0) [0|65535] "" XXX
